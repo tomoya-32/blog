@@ -1,5 +1,5 @@
 from app.app import app
-from flask import render_template
+from flask import render_template, url_for
 
 
 @app.route('/')
@@ -8,4 +8,5 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run()
+    debug = True
+    app.run(debug=True)
