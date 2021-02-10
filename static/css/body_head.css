@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+
+body{
+    margin: 0;
+    color: red;
+}
+
+.a-b-list{
+	list-style-type: none;
+	overflow: hidden;
+	background: yellow;
+	margin:0px;
+	text-align: center;
+}
+
+.a-b-item{
+	float: left;
+}
+
+.a-b-link{
+	text-decoration: none;
+	background-color: black;
+	padding: 30px;
+}
+
+.a-b-link-season{
+	line-height: 50px;
+}
+
+img{
+    max-width: 50px;
+}
